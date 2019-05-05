@@ -34,7 +34,7 @@ def generate_footer():
 
 def save_page(title, output = 'about.html'):
     ###### генерим списки
-    body = ""
+    body = "<img src="'img.jpeg'" alt="" heigth = '100' width = '100'>"
     body += generate_ul(title = "Времена дня:", lst = times)
     body += generate_ul(title = "Глаголы:", lst = advices)
     body += generate_footer()
